@@ -2,7 +2,9 @@
 
 I ran accross [Kevin Harrionton's code](https://github.com/madhephaestus/lx16a-servo) used to control the LX-16A servo motor **directly** instead of using the HiWonder BusLinker board. 
 However, I was not able to get any of his examples to work with my ESP32 WROOM development board. Eventually, through trial and many errors, I did find a solution. I forked his code and rewrote the Serial -> LX-16A setup in each example to run on my board so that I could share with anyone who is interested.
-(I did not ever get his 1 wire ESP32 example to work and since I only have 2 servo's I also did not test the 
+
+(I did not ever get his 1 wire ESP32 example to work and since I only have 2 servo's I also did not test the lx16aServo_Calibrate_Motors.cpp file as it seems to need 3 motors for the calibration process.)
+
 Here is a shot of the back side of one of the LX-16A servo motors showing the connections for GND, VCC and the bidirectional signal for motor control.
 
 ![LX-16A Servo pic2](https://user-images.githubusercontent.com/15849536/219958841-be6f6604-74ab-4773-bfc7-40f66382eb01.png)
