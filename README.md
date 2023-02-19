@@ -11,6 +11,9 @@ Here is a shot of the back side of one of the LX-16A servo motors showing the co
 
 You will find in the setup code that I am refering to the **pin numbers instead of the GPIO numbers**. Most libraries use the GPIO numbers to refer to pins but for some reason the library does not. Keep that in mind if you have a different ESP32 board. You may have to experiment to find the correct pins for your setup.
 
+Below is my connection diagram. Multiple servos can be chained together as they all have dual ports on the back.
+
+![Test](https://user-images.githubusercontent.com/15849536/219963792-640c69ba-5361-4982-9713-ecc5f4fd9ac2.png)
 
 
 
