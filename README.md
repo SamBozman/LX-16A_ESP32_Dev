@@ -5,3 +5,6 @@ However, I was not able to get any of his examples to work with my ESP32 WROOM d
 
 Here is a shot of the back side of one of the LX-16A servo motors showing the connections for GND, VCC and the bidirectional signal for motor control.
 
+
+![LX-16A Servo pic2](https://user-images.githubusercontent.com/15849536/219958841-be6f6604-74ab-4773-bfc7-40f66382eb01.png)
+
