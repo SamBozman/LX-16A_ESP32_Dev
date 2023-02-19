@@ -9,7 +9,7 @@ Here is a shot of the back side of one of the LX-16A servo motors showing the co
 
 ![LX-16A Servo pic2](https://user-images.githubusercontent.com/15849536/219958841-be6f6604-74ab-4773-bfc7-40f66382eb01.png)
 
-[Here is a link](https://www.mischianti.org/wp-content/uploads/2020/11/ESP32-DOIT-DEV-KIT-v1-pinout-mischianti-1024x501.png) to the pinout diagram of the ESP32 Development board I am using for my project(s).
+**Here is a [link](https://www.mischianti.org/wp-content/uploads/2020/11/ESP32-DOIT-DEV-KIT-v1-pinout-mischianti-1024x501.png) to the pinout diagram of the ESP32 Development board I am using for my project(s).**
 
 You will find in the setup code that I am refering to the **pin numbers instead of the GPIO numbers**. Most libraries use the GPIO numbers to refer to pins but for some reason the library does not. Keep that in mind if you have a different ESP32 board. You may have to experiment to find the correct pins for your setup.
 
