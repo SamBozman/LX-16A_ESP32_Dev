@@ -18,6 +18,6 @@ Below is my connection diagram. Multiple servos can be chained together as they 
 
 ![Test](https://user-images.githubusercontent.com/15849536/219963792-640c69ba-5361-4982-9713-ecc5f4fd9ac2.png)
 
-
+(I recently ran accross information that suggested that the LX-16A servo motor is actually rated for 4.5V. The article suggested that using a voltage up to 7V would be fine as long as you were not running the motor at full speed, but just to be safe I would suggest limiting the motor voltage to 6V.)
 
 
