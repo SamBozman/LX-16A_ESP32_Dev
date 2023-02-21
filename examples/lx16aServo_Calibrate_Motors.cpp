@@ -10,6 +10,7 @@ bool calibrationDone = false;
 #define TX 27 // pin 27 (GPIO 17) //The lx16a-servo Library does not use the GPIO pin numbers
 #define RX 25 // pin 25 (GPIO 16)
 int divisor = 3;
+
 void setup() {
 	while(!Serial);
 	delay(1000);
